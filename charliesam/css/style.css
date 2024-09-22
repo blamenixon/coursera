@@ -1,0 +1,37 @@
+#content {
+    background-color:#ffffff;
+    width:950px;
+    min-height:550px;
+    text-align:left;
+    padding:0px;}
+body {
+    background-color: #99ccff;
+}
+h1 {
+    padding:20px;
+    background-color:gray;
+    color:black;
+    margin:0;
+    text-shadow: orange 2px 2px 2px;
+    text-align:center;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E3E1E1', endColorstr='#CCCACA'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#E3E1E1), to(#CCCACA)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #E3E1E1,  #CCCACA); /* for firefox 3.6+ */ 
+}
+#page-wrap {
+    border: 1px solid orange;
+    margin: 10px auto;
+    width: 950px;
+}
+#parallax-header { 
+    height:200px; background-color:gray; 
+ }
+#parallax {
+    position:relative; overflow:hidden; width:950px; height:250px; background-image:url('../img/background.jpg');
+}
+.parallax-viewport {
+    position: relative; overflow: hidden;
+}
+.parallax-layer {
+    position: absolute;
+}
